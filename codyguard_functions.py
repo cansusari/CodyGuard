@@ -4,7 +4,7 @@ import lkml
 class LookerCodyGuardFunc:
 
   # Parameters
-  abbrevs = ['GMV', 'NMV', 'BU', 'ST', 'FT', 'MP', 'PM', 'PM2', 'PM2c', 'B2B', 'B2C', 'GP', 'OSF', 'PLM', 'MNC', 'TY', 'TL', 'USD', 'EUR', 'GBP', '3D', 'SKU', 'TEX', 'NPS', 'L7D', 'L10D', 'L1W', 'L2W', 'L14D','L1M', 'L3M', 'L6M','L1Y', 'YTD', 'SC', 'MSRP', 'TCMB', 'GittiGidiyor', 'HepsiBurada', 'n11', 'ArGe', 'SC', 'CR', 'PM2%', 'PDA', 'LTM', 'L3D', 'QC', 'AB', 'Q&A', 'ABS', 'BPM', 'SPM', 'WoW', 'CTR', 'LMS', 'FCR', 'IVR', 'MD', 'PDF', 'TMS', 'SMV', 'TGO', 'TYGO', 'HR', 'KPI', 'GWS', 'PC', 'TBL', 'IBM', 'CA', 'RPA', 'POS', 'PIM', 'API', 'DYS', 'TET', 'SSF', 'AC', 'OB', 'PO', 'DYS', 'AGT', 'ETGB', 'CB', 'ABS', 'AIS', 'IPAS', 'OPAS', 'SIPAS', 'SPAS', 'E-Fatura', 'E-Arşiv', 'KVKK', 'GDPR']
+  abbrevs = ['GMV', 'NMV', 'BU', 'ST', 'FT', 'MP', 'PM', 'PM2', 'PM2c', 'B2B', 'B2C', 'GP', 'OSF', 'PLM', 'MNC', 'TY', 'TL', 'USD', 'EUR', 'GBP', '3D', 'SKU', 'TEX', 'NPS', 'L7D', 'L10D', 'L1W', 'L2W', 'L14D','L1M', 'L3M', 'L6M','L1Y', 'YTD', 'SC', 'MSRP', 'TCMB', 'ArGe', 'SC', 'CR', 'PM2%', 'PDA', 'LTM', 'L3D', 'QC', 'AB', 'Q&A', 'ABS', 'BPM', 'SPM', 'WoW', 'CTR', 'LMS', 'FCR', 'IVR', 'MD', 'PDF', 'TMS', 'SMV', 'TGO', 'TYGO', 'HR', 'KPI', 'GWS', 'PC', 'TBL', 'IBM', 'CA', 'RPA', 'POS', 'PIM', 'API', 'DYS', 'TET', 'SSF', 'AC', 'OB', 'PO', 'DYS', 'AGT', 'ETGB', 'CB', 'ABS', 'AIS', 'IPAS', 'OPAS', 'SIPAS', 'SPAS']
   connectors = ['or', 'and', 'to', 'of', 'a', 'exc', 'on', 'in', 'at', 'by', 'the', 've', 'ile', 'veya', 'with', 'within', 'per', 'without', 'for', 'inc']
   # Functions
 
